@@ -239,7 +239,7 @@ h6{font-size: 16px;}
 
 @media screen and  (max-width: 850px){
   .intro-wrapper{
-    grid-template-colums: 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas: 
   "nav-wrapper"
   "left-column"
