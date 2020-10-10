@@ -7,7 +7,7 @@
   --mainText:black;
   --secondaryText: #4b5156;
 
-  --themDotBorder: #24292e;
+  --themeDotBorder: #24292e;
 
   --previewBg: rgba(251, 249, 243, 0.8);
   --previewShadow: #f0ead6;
@@ -18,6 +18,10 @@
 html, body{
   padding: 0;
   margin: 0;
+}
+
+body *{
+  transition: 0.3s;
 }
 
 h1, h2, h3, h4, h5, h6 , strong{
@@ -97,7 +101,10 @@ h6{font-size: 16px;}
   align-items: center;
   background-color: var(--mainColor);
   border-radius: 5px 5px 0 0;
+}
 
+#navigation a{
+  color: var(--mainText);
 }
 
 #navigation{
@@ -161,7 +168,7 @@ h6{font-size: 16px;}
   background-color: black; 
 
   margin: 5px; 
-  border: 2px solid var(--themDotBorder);
+  border: 2px solid var(--themeDotBorder);
 
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -303,6 +310,7 @@ h6{font-size: 16px;}
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  border-radius: 5px;
 }
 
 #contact-form{
